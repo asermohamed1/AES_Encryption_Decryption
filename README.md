@@ -1,2 +1,2 @@
 # AES_Encryption_Decryption
-aes
+This project implements the Advanced Encryption Standard (AES) algorithm in Verilog HDL, supporting three key sizes: AES-128, AES-192, and AES-256. The system can perform both encryption and decryption on 128-bit data blocks, using 10, 12, or 14 rounds depending on the key length. The design includes modules for key expansion, core AES transformations (SubBytes, ShiftRows, MixColumns, and AddRoundKey), and inverse operations for decryption. A controller module handles round transitions, and a Verilog testbench is used to validate functionality. The design is suitable for FPGA implementation, providing a high-performance hardware-based encryption solution.
